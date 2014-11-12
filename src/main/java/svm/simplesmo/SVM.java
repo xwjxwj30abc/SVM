@@ -16,5 +16,6 @@ public class SVM {
 		smo.predict(model, svmData.getX());
 		for (int i = 0; i < 10; i++)
 			System.out.println(smo.predict(model, svmData.getX())[i]);
+		System.out.println("hello");
 	}
 }
